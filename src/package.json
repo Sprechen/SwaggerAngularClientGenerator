@@ -1,0 +1,19 @@
+{
+  "name": "swagger-angular-client-generator",
+  "version": "1.0.0",
+  "description": "Command line utility to generate angular code from a swagger ws definition",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luca Roverelli",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "swagger-generator": "swagger-generator.js"
+  },
+  "dependencies": {
+    "request": "^2.63.0",
+    "swagger-js-codegen": "^1.1.4"
+  }
+}
